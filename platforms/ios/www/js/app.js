@@ -36,7 +36,7 @@
     function renderHomeView() {
         $('body').html(homeTpl());
         $('.search-key').html(employeeListTpl());
-        $('.footer').html(footerTpl().then(console.log('Test')));
+        $('.footer').html(footerTpl());
     }
     
 }());
